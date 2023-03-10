@@ -29,7 +29,7 @@ export default function App() {
 			if (locationPermissionInformation?.status === PermissionStatus.DENIED && !alertDisplayed) {
 				setAlertDisplayed(true);
 				Alert.alert(
-					"Insufficient Permissions!",
+					"Insufficient Permissions! test",
 					"You need to grant location permissions to use the map"
 				);
 				return false;
