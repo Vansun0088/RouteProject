@@ -1,7 +1,6 @@
 import { StatusBar, StyleSheet, useColorScheme, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Map from "./components/Map";
-import Options from "./components/Options";
 
 export default function App() {
 	const colorTheme = useColorScheme();
